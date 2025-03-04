@@ -1,0 +1,12 @@
+.mainLinks {
+  width: 100%;
+}
+.containerLinks {
+  display: flex;
+}
+.link {
+  font-size: 2vw;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  padding-bottom: 5px;
+}

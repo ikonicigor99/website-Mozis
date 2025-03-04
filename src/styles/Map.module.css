@@ -1,0 +1,48 @@
+.mainMap {
+  width: 100%;
+  background-color: #eeeeee;
+}
+.main {
+  width: 100%;
+  display: flex;
+}
+.map {
+  width: 50%;
+}
+.containerInfo {
+  width: 50%;
+  display: flex;
+}
+
+.logoContainer {
+}
+.logo {
+}
+.text {
+}
+.linksContainer {
+}
+.links {
+}
+.locationCards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.phoneContainer,
+.emailContainer,
+.addressContainer {
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.icon {
+  width: 15%;
+  margin-bottom: 10px;
+}

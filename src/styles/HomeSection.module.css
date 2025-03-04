@@ -1,0 +1,34 @@
+.mainHome {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+}
+.homeContent {
+  max-width: 100%;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.containerText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text {
+  color: white;
+  font-size: 2vw;
+}
+.containerImage {
+  width: 100%;
+}
+img {
+  width: 100%;
+}

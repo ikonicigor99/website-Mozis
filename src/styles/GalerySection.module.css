@@ -1,0 +1,17 @@
+.mainGalerija {
+  width: 100%;
+  background-color: #fff;
+}
+.containerImages {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image {
+  width: 31%;
+  background-color: #eeeeee;
+  margin: 10px 0px;
+  padding: 10px 10px;
+}

@@ -1,0 +1,35 @@
+.mainFooter {
+  width: 100%;
+  display: flex;
+  margin: 40px 0px;
+}
+.containerFooter {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.logoContainer {
+  display: flex;
+  width: 33%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.logo {
+  h3 {
+    font-size: 2rem;
+    margin: 0px;
+    text-align: left;
+    font-weight: 700;
+  }
+}
+.text {
+  text-align: left;
+}
+.linksContainer {
+  width: 33%;
+}
+.links {
+  width: 33%;
+}
+.link {
+}

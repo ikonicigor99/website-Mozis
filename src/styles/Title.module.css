@@ -1,0 +1,21 @@
+.mainContainer {
+  width: 100%;
+  height: 15vw;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.holderTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 1.8vw;
+  font-weight: 500;
+  color: #17594a;
+}
+.subtitle {
+  font-size: 4vw;
+}
