@@ -71,22 +71,21 @@ const MapContainer = ({ apiKey }) => {
                   <div className={styles.icon}>
                     <img src={phoneIcon} alt="phone icon" />
                   </div>
-                  <div>TELEFON:</div>
-                  <div>hjah</div>
+                  <div className={styles.info}>TELEFON</div>
                   <div className={styles.text}>+381 65 841 434</div>
                 </div>
                 <div className={styles.emailContainer}>
                   <div className={styles.icon}>
                     <img src={mailIcon} alt="mail icon" />
                   </div>{" "}
-                  <div>EMAIL:</div>
+                  <div className={styles.info}>EMAIL</div>
                   <div className={styles.text}>ikoniczoran@hotmail.rs</div>
                 </div>
                 <div className={styles.addressContainer}>
                   <div className={styles.icon}>
                     <img src={locationIcon} alt="address icon" />
                   </div>
-                  <div>ADRESA:</div>
+                  <div className={styles.info}>ADRESA</div>
                   <div className={styles.text}>
                     Ulice bb, Zvornik 75400, BIH
                   </div>
