@@ -8,7 +8,7 @@
   width: 75%;
   position: relative;
 
-  animation: appear 4s linear;
+  animation: appear 2s linear;
   animation-timeline: view();
   animation-range: entry 0;
 }
@@ -21,5 +21,17 @@
   to {
     opacity: 1;
     scale: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .containerContent {
+    max-width: 90%;
+    width: 90%;
+    position: relative;
+
+    animation: appear 4s linear;
+    animation-timeline: view();
+    animation-range: entry 0;
   }
 }
