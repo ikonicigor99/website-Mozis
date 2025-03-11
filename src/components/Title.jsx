@@ -6,7 +6,7 @@ const TitleComponent = ({ subtitle }) => {
     <>
       <div className={styles.mainContainer}>
         <div className={styles.holderTitle}>
-          <div className={styles.title}>Mozis.com</div>
+          <div className={styles.title}>PILANA | MOZIS</div>
           <div className={styles.subtitle}>{subtitle}</div>
         </div>
       </div>

@@ -37,7 +37,7 @@ const MapContainer = ({ apiKey }) => {
               <LoadScript googleMapsApiKey={apiKey}>
                 <GoogleMap
                   mapContainerStyle={mapStyle}
-                  zoom={10}
+                  zoom={18}
                   center={defaultCentar}
                 >
                   <Marker position={defaultCentar} />
