@@ -3,7 +3,7 @@ import ProizvodiComponent from "../components/Products";
 
 const ProizvodiSection = () => {
     return (
-        <div id="proizvodi">
+        <div>
             <ProizvodiComponent />
         </div>
     );

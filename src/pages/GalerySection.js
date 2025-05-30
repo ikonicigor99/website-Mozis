@@ -17,7 +17,7 @@ const GalerijaSection = () => {
                 <div className={styles.containerImages}>
                     {Galery.map((item, id) => (
                         <div className={styles.image}>
-                            <img src={item.img} /*onClick={() => handlePopup()} */ />
+                            <img src={item.img} alt={item.alt} /*onClick={() => handlePopup()} */ />
                         </div>
                     ))}
                 </div>

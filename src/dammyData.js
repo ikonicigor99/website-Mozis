@@ -1,19 +1,24 @@
 export const images = [
     {
         img: require("./images//pozadina1.JPG"),
+        alt: "PozadinaFirma"
     },
 
     {
         img: require("./images//IMG_8309.JPG"),
+        alt: "kocke"
     },
     {
         img: require("./images//pozadina2.JPG"),
+        alt: "trupci"
     },
     {
         img: require("./images//IMG_8341.JPG"),
+        alt: "ogrevnoDrvo"
     },
     {
         img: require("./images//IMG_8359.JPG"),
+        alt: "daska"
     },
 ];
 
